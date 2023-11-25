@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background: linear-gradient(to bottom, #70e1f5, #f5ede4); 
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+
+        #navbar {
+            background-color: #2260b7;
+            padding: 10px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        #navbar #logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            margin-right: auto;
+        }
+
+        .container {
+            padding: 50px;
+            background-color: #fff;
+            border-radius: 8px;
+            width: 70%;
+            text-align: center;
+            margin-top: 70px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2260b7;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .team-member {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .team-member-details {
+            text-align: left;
+            max-width: 300px;
+        }
+
+        .back-to-home {
+            margin-top: 20px;
+            text-align: center;
+            color: #2260b7;
+        }
+
+        .back-to-home a {
+            color: #2260b7;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo">
+            <img src="logo.jpeg" alt="Your Logo">
+          </div>
+        <a href="/">Home</a>
+        <a href="/job-listings">Browse Jobs</a>
+        <a href="/contact-us">Contact Us</a>
+    </div>
+
+    <div class="container">
+        <h1>About Us</h1>
+        <p>Welcome to our job board! We are dedicated to connecting talented individuals with exciting job opportunities.</p>
+        <p>Our mission is to make the job search process seamless and efficient for both job seekers and employers.</p>
+
+        <h2>Our Team</h2>
+        
+        <div class="team-member">
+            <div class="team-member-details">
+                <h3>ROHAN RAI</h3>
+                <p>21BCE0440</p>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <div class="team-member-details">
+                <h3>SHIVANI DASH</h3>
+                <p>21BCE0484</p>
+            </div>
+        </div>
+
+        <div class="team-member">
+    
+            <div class="team-member-details">
+                <h3>KASHISH JAIN</h3>
+                <p>21BCE3204</p>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <div class="team-member-details">
+                <h3>ASHWANI YADAV</h3>
+                <p>21BCE0231</p>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <div class="team-member-details">
+                <h3>AAYATI SALUJA</h3>
+                <p>21BCI0051</p>
+            </div>
+        </div>
+
+        <div class="back-to-home">
+            <p>Explore our job listings <a href="/login">here</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
