@@ -12,7 +12,6 @@ import LoginComponent from './components/LoginComponent';
 
 import SignupComponent from './components/SignupComponent'; // Import the new component
 import SubmissionComponent from './components/SubmissionComponent'; // Import the new component
-import TermsPrivacyComponent from './components/TermsPrivacyComponent'; // Import the new component
 import LogoutComponent from './components/LogoutComponent';
 import JobPortalPage from './components/JobPortalPage'; // import your JobPortalPage component
 
@@ -46,9 +45,6 @@ function App() {
         </Route>
         <Route path="/submission"> {/* Add a new route */}
           <SubmissionComponent />
-        </Route>
-        <Route path="/terms-privacy"> {/* Add a new route */}
-          <TermsPrivacyComponent />
         </Route>
         <Route path="/home">
           <LogoutComponent />
