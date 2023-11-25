@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #70e1f5, #f5ede4);
+    /* Gradient background  */
+    /* background-color: #95b7e7;  */
+}
+
+header {
+    background: #2260b7;
+    /* Dark blue background */
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Text shadow for better visibility */
+}
+
+nav {
+    background: #6a8bc6;
+    /* Dark background */
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.back-btn {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+section {
+    padding: 2em;
+}
+
+.job-description {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.application-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.application-form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.application-form input,
+.application-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+}
+
+.application-form button,
+.application-form .back-btn,
+.application-form .reset-btn {
+    padding: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.application-form button {
+    background-color: #2a5298;
+    color: white;
+}
+
+.application-form .back-btn {
+    background-color: #333;
+}
+
+.application-form .reset-btn {
+    background-color: #c0392b;
+    color: white;
+}
+
+.application-form button:hover,
+.application-form .back-btn:hover,
+.application-form .reset-btn:hover {
+    background-color: #555;
+}
+
+#login_form {
+    width: 30px;
+}
