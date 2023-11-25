@@ -9,7 +9,7 @@ import ContactUsComponent from './components/ContactUsComponent';
 import ForgotPasswordComponent from './components/ForgotPasswordComponent';
 import JobListingsComponent from './components/JobListingsComponent';
 import LoginComponent from './components/LoginComponent';
-import ProfileComponent from './components/ProfileComponent'; // Import the new component
+
 import SignupComponent from './components/SignupComponent'; // Import the new component
 import SubmissionComponent from './components/SubmissionComponent'; // Import the new component
 import TermsPrivacyComponent from './components/TermsPrivacyComponent'; // Import the new component
@@ -40,9 +40,6 @@ function App() {
         </Route>
         <Route path="/login">
           <LoginComponent />
-        </Route>
-        <Route path="/profile"> {/* Add a new route */}
-          <ProfileComponent />
         </Route>
         <Route path="/signup"> {/* Add a new route */}
           <SignupComponent />
