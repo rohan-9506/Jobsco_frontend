@@ -21,7 +21,7 @@ const ApplyComponent = () => {
     formData.append("resume", cv);
     formData.append("coverLetter", coverLetter);
     console.log(formData);
-    const data = await fetch("http://localhost:3000/api/apply-job/6557aeb49f27fe81951ca4a8", {
+    const data = await fetch("https://jobsco-goe2.onrender.com/api/apply-job/6557aeb49f27fe81951ca4a8", {
       method: "post",
       enctype:"multipart/form-data",
       body: formData
